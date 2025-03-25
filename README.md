@@ -58,16 +58,16 @@ vercel
 4️⃣ Place an order and check order status
 5️⃣ Edit or cancel orders if needed
 
-🔑 Admin Actions
+## 🔑 Admin Actions
 1️⃣ Login as an Admin
 2️⃣ Add, Edit, or Delete products
 3️⃣ View all orders and mark them as "Completed"
 
 
-📢 Contributors
+## 📢 Contributors
 💡 Developed by: Mohit Jain
 
 🙌 Want to contribute? Feel free to fork this repository, make improvements, and submit a pull request.
 
-📜 License
+## 📜 License
 📝 This project is MIT Licensed. You are free to modify and distribute it.
