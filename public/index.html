@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome | Catering System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Catering Reservation</h1>
+        <p>Order delicious food with ease.</p>
+        
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+    </div>
+
+    <script>
+        document.getElementById("loginBtn").addEventListener("click", () => {
+            window.location.href = "login.html";
+        });
+
+        document.getElementById("registerBtn").addEventListener("click", () => {
+            window.location.href = "register.html";
+        });
+    </script>
+</body>
+</html>

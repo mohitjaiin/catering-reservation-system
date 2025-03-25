@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/admin.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Admin Panel - Add Products</h2>
+
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="number" id="productPrice" placeholder="Price">
+        <button id="addProductBtn">Add Product</button>
+
+        <button id="dashboardBtn">Go to Dashboard</button>
+    </div>
+
+    <script>
+        document.getElementById("dashboardBtn").addEventListener("click", () => {
+            window.location.href = "dashboard.html";
+        });
+    </script>
+</body>
+</html>

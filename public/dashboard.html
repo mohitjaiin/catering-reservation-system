@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome to Catering Dashboard</h2>
+
+        <button id="adminPageBtn">Go to Admin Panel</button>
+
+        <h3>Available Products</h3>
+        <div class="product-container" id="productList"></div>
+
+        <h3>My Cart</h3>
+        <div id="cart"></div>
+        <button id="placeOrderBtn">Place Order</button>
+
+        <h3>My Orders</h3>
+        <div id="ordersList"></div>
+
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+    <script>
+        document.getElementById("adminPageBtn").addEventListener("click", () => {
+            window.location.href = "admin.html";
+        });
+
+        document.getElementById("logoutBtn").addEventListener("click", () => {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>
