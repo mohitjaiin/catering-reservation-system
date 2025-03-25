@@ -5,7 +5,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.5.0/firebase
 
 // Firebase configuration (Replace with your actual Firebase config)
 const firebaseConfig = {
-    apiKey: "AIzaSyAyu729nTmxrTdg30HH-9sDSRcYFVm4d6k",
+    apiKey: "replace with your API Key",
   authDomain: "catering-system-68fde.firebaseapp.com",
   projectId: "catering-system-68fde",
   storageBucket: "catering-system-68fde.firebasestorage.app",
